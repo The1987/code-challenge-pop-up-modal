@@ -16,7 +16,7 @@ function inputChecker() {
       return true;
     }
     else {
-      document.getElementById("error-messsage").innerHTML = "Please enter in a valid email."
+      document.getElementById("error-messsage").innerHTML = "Please enter a valid email."
       return false;
     }
   }
