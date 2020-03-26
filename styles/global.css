@@ -76,8 +76,7 @@ body {
     #sub-container {
         border-left: none !important;
         width: 274px;
-        border-left: none;
-        border-image: none;
+        border-image: none !important;
     }
 
     .x {

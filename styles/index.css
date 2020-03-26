@@ -171,9 +171,9 @@ input {
         color: #464646;
         padding-right: 0 !important;
         text-align: center;
-        border-right: none ;
+        border-right: none !important;
         border-image: linear-gradient(to right, rgba(233, 233, 233, 1), transparent, rgba(233, 233, 233, 1)) 1;
-        border-bottom: 0;
+        /* border-bottom: 0; */
         border-bottom-width: 1px;
         border-bottom-style: solid;
     }
