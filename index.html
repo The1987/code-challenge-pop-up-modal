@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./styles/global.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Listrak Pop Up | Welcome</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="hidden-container">
+                <button>Click Me To Open Modal</button>
+            </div>
+            <div id="sub-container">
+                <div id="x_button" class="x">X</div>
+                <div class="inner cta">Get Your Style On</div>
+                <div class="inner and">
+                    <div class="and-2">&</div>
+                </div>
+                <div class="inner promo">
+                    <div class="inner-2 promo-2">
+                        <div class="inner-3 discount">20</div>
+                        <div class="inner-3 percentage">
+                            <div class="percentage-2">%</div>
+                            <div class="percentage-3">off</div>
+                        </div>
+                    </div>
+                    <div class="inner-2 email-2">
+                        <form id="form" action="./confirm.html">
+                            <input type="email" id="email" name="email" placeholder="Email Address" onkeyup="inputChecker()">
+                            <input type="submit" id="submit" value="Sign Up" disabled>
+                            <div id="error-messsage"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
